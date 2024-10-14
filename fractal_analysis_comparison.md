@@ -38,12 +38,6 @@ The analysis was performed using 1-second and 3-second windows for both HFD and 
 
 ![DFA 3s Comparison](DFA_3s_comparison.png)
 
-### Classification Comparison
-
-The overall classification match between human and AI-generated audio was 47.45%.
-
-![Classification Comparison](classification_comparison.png)
-
 ## Analysis
 
 1. **Complexity (HFD)**: The AI-generated audio consistently shows higher HFD values, indicating more complexity or randomness in the signal. The AI audio also has a wider range and higher standard deviation, suggesting more variability in complexity.
@@ -53,8 +47,6 @@ The overall classification match between human and AI-generated audio was 47.45%
 3. **Variability**: The AI audio shows more variability in both measures, especially in the HFD analysis. This could suggest that the AI-generated audio has more diverse acoustic properties throughout the sample.
 
 4. **Window Size Effect**: The 3-second window analysis shows less variability (lower std) than the 1-second window for both human and AI audio. This suggests that longer time scales might provide more stable measurements of fractal characteristics in audio signals.
-
-5. **Classification Differences**: The classification match of 47.45% indicates that while there are similarities between the human and AI audio, there are also significant differences in how they are classified throughout the samples.
 
 ## Conclusions and Future Directions
 
