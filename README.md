@@ -41,41 +41,6 @@ We've conducted an exploratory analysis comparing fractal characteristics of hum
 
 These findings are preliminary and based on a limited sample size. They support our initial thesis about the fractal properties of human and AI-generated voices, emphasizing the potential of our approach in distinguishing between the two. For a detailed analysis, including visualizations and future research directions, please refer to our [Fractal Analysis Comparison](fractal_analysis_comparison.md) document.
 
-## Future Work and Crowdsourcing Initiative
-
-While our initial results are promising, there is still significant work to be done to refine and validate our approach. The computationally expensive nature of our analysis (taking hours per sample) necessitates a crowdsourcing approach to advance our research. We are calling on the community to help with:
-
-1. **Sample Collection**: We need a diverse range of human and AI-generated voice samples to improve the robustness of our analysis.
-
-2. **Threshold Modifications**: Help us fine-tune the adaptive thresholds for HFD and DFA to improve classification accuracy.
-
-3. **Detection Analysis**: Contribute to the exploration of various time series analysis techniques and fractal dimension definitions to enhance our detection capabilities.
-
-By leveraging the power of crowdsourcing, we aim to accelerate the development of this promising approach to voice authentication. If you're interested in contributing, please check our [Contribution Guidelines](CONTRIBUTING.md) for more information on how to get involved.
-
-## VoiceKey Project
-
-VoiceKey is a research initiative aimed at developing a robust voice authentication system leveraging the unique randomness properties of the human voice. It utilizes negative detection, Zero-Knowledge Proofs (ZKPs), blockchain technology, and analog voice verification to create a secure, privacy-preserving, and computationally efficient authentication mechanism. [VoiceKey Project Overview](https://ai2-alliance.github.io/VoiceKey/)
-
-Key aspects of VoiceKey include:
-- Negative detection of AI-generated voices
-- Integration of Multi-Factor Authentication (MFA) and biometric factors
-- Privacy preservation using ZKP and blockchain technology
-- Analysis of compute resource expenditures and bypass probabilities
-- Consideration of potential bypass methodologies and security measures
-
-## AI Integrity Alliance (AI²)
-
-The AI Integrity Alliance (AI²) is a global coalition dedicated to promoting ethical and trustworthy artificial intelligence. Its mission is to ensure AI technologies are developed and used responsibly, transparently, and inclusively. AI² unites representatives from diverse regions, industries, and cultures to foster collaboration and share best practices in AI ethics.
-
-Core Principles of AI²:
-1. Transparency and Accountability
-2. Inclusion and Diversity
-3. Open-Source Empowerment
-
-## Contributing
-
-We welcome contributions from the community. Please read our [Contributing Guidelines](https://ai2-alliance.github.io/VoiceKey/docs/collaboration.html) to get started.
 
 ## The Rationale Behind Our Approach
 
@@ -159,17 +124,45 @@ The script will analyze the audio file and output:
 
 To properly test with your own voice or have AI read it, please refer to the test narrative available at: [VoiceKey Test Narrative](voicekey-test-narrative.md)
 
-## Contributing
+## Future Work and Crowdsourcing Initiative
 
-We welcome contributions to this open-source project! Please feel free to submit pull requests or open issues for bugs, feature requests, or improvements.
+While our initial results are promising, there is still significant work to be done to refine and validate our approach. The computationally expensive nature of our analysis (taking hours per sample) necessitates a crowdsourcing approach to advance our research. We are calling on the community to help with:
 
-## Disclaimer
+1. **Sample Collection**: We need a diverse range of human and AI-generated voice samples to improve the robustness of our analysis.
 
-This project is a research initiative and should not be considered a definitive method for distinguishing human from AI-generated voices. The effectiveness of this approach may vary and is subject to ongoing research and refinement.
+2. **Threshold Modifications**: Help us fine-tune the adaptive thresholds for HFD and DFA to improve classification accuracy.
+
+3. **Detection Analysis**: Contribute to the exploration of various time series analysis techniques and fractal dimension definitions to enhance our detection capabilities.
+
+By leveraging the power of crowdsourcing, we aim to accelerate the development of this promising approach to voice authentication. If you're interested in contributing, please check our [Contributing Guidelines](https://ai2-alliance.github.io/VoiceKey/docs/collaboration.html) for more information on how to get involved.
+
+## VoiceKey Project
+
+VoiceKey is a research initiative aimed at developing a robust voice authentication system leveraging the unique randomness properties of the human voice. It utilizes negative detection, Zero-Knowledge Proofs (ZKPs), blockchain technology, and analog voice verification to create a secure, privacy-preserving, and computationally efficient authentication mechanism. [VoiceKey Project Overview](https://ai2-alliance.github.io/VoiceKey/)
+
+Key aspects of VoiceKey include:
+- Negative detection of AI-generated voices
+- Integration of Multi-Factor Authentication (MFA) and biometric factors
+- Privacy preservation using ZKP and blockchain technology
+- Analysis of compute resource expenditures and bypass probabilities
+- Consideration of potential bypass methodologies and security measures
+
+## AI Integrity Alliance (AI²)
+
+The AI Integrity Alliance (AI²) is a global coalition dedicated to promoting ethical and trustworthy artificial intelligence. Its mission is to ensure AI technologies are developed and used responsibly, transparently, and inclusively. AI² unites representatives from diverse regions, industries, and cultures to foster collaboration and share best practices in AI ethics.
+
+Core Principles of AI²:
+1. Transparency and Accountability
+2. Inclusion and Diversity
+3. Open-Source Empowerment
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This project is a research initiative and should not be considered a definitive method for distinguishing human from AI-generated voices. The effectiveness of this approach may vary and is subject to ongoing research and refinement.
 
 ## Acknowledgments
 
