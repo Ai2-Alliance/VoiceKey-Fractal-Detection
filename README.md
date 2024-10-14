@@ -40,6 +40,8 @@ We've conducted an exploratory analysis comparing fractal characteristics of hum
 
 These findings are preliminary and based on a limited sample size. They support our initial thesis about the fractal properties of human and AI-generated voices, emphasizing the potential of our approach in distinguishing between the two. For a detailed analysis, including visualizations and future research directions, please refer to our [Fractal Analysis Comparison](fractal_analysis_comparison.md) document.
 
+![HFD 3s Comparison](HFD_3s_comparison.png)
+
 
 ## The Rationale Behind Our Approach
 
