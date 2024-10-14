@@ -55,7 +55,7 @@ By leveraging the power of crowdsourcing, we aim to accelerate the development o
 
 ## VoiceKey Project
 
-VoiceKey is a research initiative aimed at developing a robust voice authentication system leveraging the unique randomness properties of the human voice. It utilizes negative detection, Zero-Knowledge Proofs (ZKPs), blockchain technology, and analog voice verification to create a secure, privacy-preserving, and computationally efficient authentication mechanism.
+VoiceKey is a research initiative aimed at developing a robust voice authentication system leveraging the unique randomness properties of the human voice. It utilizes negative detection, Zero-Knowledge Proofs (ZKPs), blockchain technology, and analog voice verification to create a secure, privacy-preserving, and computationally efficient authentication mechanism. [VoiceKey Project Overview](https://ai2-alliance.github.io/VoiceKey/)
 
 Key aspects of VoiceKey include:
 - Negative detection of AI-generated voices
@@ -72,6 +72,10 @@ Core Principles of AI²:
 1. Transparency and Accountability
 2. Inclusion and Diversity
 3. Open-Source Empowerment
+
+## Contributing
+
+We welcome contributions from the community. Please read our [Contributing Guidelines](https://ai2-alliance.github.io/VoiceKey/docs/collaboration.html) to get started.
 
 ## The Rationale Behind Our Approach
 
