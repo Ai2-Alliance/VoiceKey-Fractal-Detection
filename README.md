@@ -37,7 +37,6 @@ We've conducted an exploratory analysis comparing fractal characteristics of hum
 2. AI-generated audio exhibited slightly higher DFA values, suggesting stronger long-range correlations.
 3. AI audio demonstrated more variability in both HFD and DFA measures throughout the samples, possibly due to the diverse range of AI models and techniques used in generation.
 4. Human voice samples showed lower HFD and DFA values, indicating more randomness and less predictable patterns.
-5. The overall classification match between human and AI-generated audio was 47.45%, highlighting the complexity of the problem and the need for further refinement of our methods.
 
 These findings are preliminary and based on a limited sample size. They support our initial thesis about the fractal properties of human and AI-generated voices, emphasizing the potential of our approach in distinguishing between the two. For a detailed analysis, including visualizations and future research directions, please refer to our [Fractal Analysis Comparison](fractal_analysis_comparison.md) document.
 
