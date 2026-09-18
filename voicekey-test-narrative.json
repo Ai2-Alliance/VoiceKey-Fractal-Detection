@@ -1,0 +1,21 @@
+{
+  "comment": "Arousal annotation of the VoiceKey test narrative (voicekey-test-narrative.md), for the coherence screen. NOTE: the existing test-samples recordings were made under the narrative's 'maintain a consistent tone' instruction, which suppresses the human coherence signal; results against them illustrate the mechanism rather than validate pass rates. Rankings are what matter (Spearman), not absolute values.",
+  "segments": [
+    {"text": "What does it mean to be truly alive in a world of endless connections?",
+     "expected_arousal": 0.25},
+    {"text": "As we navigate the labyrinth of our existence, do we not yearn for something more profound than the digital echoes surrounding us?",
+     "expected_arousal": 0.35},
+    {"text": "Consider the weight of a loved one's hand in yours, the haunting melody that lingers in solitude, or the dread that creeps in during the darkest hours of night.",
+     "expected_arousal": 0.55},
+    {"text": "Are these not the threads that weave the tapestry of our humanity? In moments of quiet reflection, do you find yourself glimpsing paths untaken, lives unlived?",
+     "expected_arousal": 0.45},
+    {"text": "The choices we make, the connections we forge or sever - they shape the very essence of our being.",
+     "expected_arousal": 0.40},
+    {"text": "But in this vast cosmos, as we stand dreadfully distinct against the backdrop of eternity, what truly sets us apart?",
+     "expected_arousal": 0.65},
+    {"text": "Is it our capacity for love, our fear of the unknown, or perhaps our relentless quest for meaning in a seemingly indifferent universe?",
+     "expected_arousal": 0.60},
+    {"text": "As you ponder these questions, feel the weight of your existence, the surge of emotions that make you undeniably human. In this moment of introspection, ask yourself: What does it truly mean to be human, to be interlinked with the grand tapestry of life and consciousness?",
+     "expected_arousal": 0.75}
+  ]
+}
